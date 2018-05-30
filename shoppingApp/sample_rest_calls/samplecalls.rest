@@ -1,0 +1,29 @@
+@noteid = 5b0ea767c8e4ae2e786cc44a
+POST http://localhost:3000/notes/ HTTP/1.1
+content-type: application/json
+
+  {
+      "title": "yet another note",
+      "content": "created after refactor"
+  }
+
+###
+GET http://localhost:3000/notes/ HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/notes/{{noteid}} HTTP/1.1
+content-type: application/json
+
+###
+DELETE http://localhost:3000/notes/{{noteid}} HTTP/1.1
+content-type: application/json
+
+###
+PUT http://localhost:3000/notes/{{noteid}}/ HTTP/1.1
+content-type: application/json
+  
+  {
+      "title": "updated note",
+      "content": "now updated"
+  }

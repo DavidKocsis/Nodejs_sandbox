@@ -1,0 +1,7 @@
+{"modules":{
+        "notes": "./controllers/note.controller.js",
+        "operations": "./mongoDbRepo/mongo_operations.js",
+        "Note": "./models/note.model.js",
+        "mongoose":"mongoose"
+    }
+}

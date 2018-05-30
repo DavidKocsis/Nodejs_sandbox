@@ -1,0 +1,26 @@
+{
+  "name": "shoppingapp",
+  "version": "1.0.0",
+  "description": "nodejs play ground",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "amend": "^0.3.8",
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.0-beta4",
+    "mongoose": "^5.1.3",
+    "notes": "0.0.4",
+    "sinon": "^5.0.10",
+    "stub": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "author": "",
+  "license": "ISC"
+}
